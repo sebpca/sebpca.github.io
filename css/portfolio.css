@@ -67,7 +67,7 @@ ul.posts li {
       background-color: tomato;
     }
   
-@media print, screen and (min-width: 40em) {
+@media print, screen and (max-width: 40em) {
     body {
     margin: 0;
     width: 80%;
