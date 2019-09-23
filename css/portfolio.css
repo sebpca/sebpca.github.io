@@ -67,8 +67,9 @@ ul.posts li {
       background-color: tomato;
     }
 
-  @media only screen and (max-width: 40em) {
+  @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
+      width: 100%;
   }
 }
