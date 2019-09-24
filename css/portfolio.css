@@ -2,10 +2,11 @@ body {
     margin: 60px auto;
     width: 70%;
     color: #333;
+    /*using systems fonts*/
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0;
     list-style: none;
     font-weight: bold;
@@ -27,7 +28,6 @@ a:hover {
 
 h1 {
     font-size: 3rem;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 p {
