@@ -27,7 +27,7 @@ a:hover {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 300%;
 }
 
 p {
@@ -52,7 +52,6 @@ ul.posts li {
 
 .flex-container {
     display: flex;
-    flex-direction: row; /* default option*/
     /* justify-content: space-between; */
     border:4px dotted #cecece;
   }
@@ -69,7 +68,8 @@ ul.posts li {
 
   @media only screen and (max-width: 600px) {
   body {
-    background-color: lightblue;
-      width: 100%;
+    width: 94%;
+    font-size: 86%;
   }
+   .flex-container {flex-direction: column; }
 }
