@@ -61,24 +61,23 @@ ul.posts li {
 
 .flex-container {
     display: flex;
-    /* justify-content: space-between; */
-    border:4px dotted #cecece;
+    flex-direction:columns;
   }
 
   .flex-container div {
     flex: 1 1 auto;
-    padding:1rem; 
-    border-radius: 4px;
+    padding: 1rem; 
+    border-radius: 4px;    
     background-color: lightgrey;}
 
   .flex-container > div:nth-child(odd) {
       background-color: tomato;
     }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 700px) {
   body {
-    width: 94%;
-    font-size: 86%;
+    width: 84%;
   }
    .flex-container {flex-direction: column; }
+   .flex-container div {margin: .1rem;}
 }
