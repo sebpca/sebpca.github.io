@@ -1,0 +1,69 @@
+<html lang="en">
+	<head>
+		<title>About me - online Portfolio (draft version)</title>
+		<link rel="stylesheet" type="text/css" href="/css/portfolio.css">
+		  <meta charset="UTF-8">
+		  <meta name="description" content="This is a short presentation of myself.">
+		  <meta name="keywords" content="HTML,CSS,JavaScript,Portfolio,Sebastien,Pesseat">
+		  <meta name="author" content="Sebastien Pesseat">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<nav>
+    		<ul>
+        		<li><a href="/">Home</a></li>
+	        	<li><a href="/about">About</a></li>
+        		<li><a href="#">CV</a></li>       		
+    		</ul>
+		</nav>
+		
+		<div class="container">
+		
+    		<div class="wrapper">
+        	<h1>About me,</h1>
+		<p>My name is <em>S&eacute;bastien Pesseat</em>, and I am an HTML/CSS/PHOTOSHOP superstar. I love mixing web development and web design, mocking up pixel-perfect design into pixel-perfect code. I have listed some key facts that would describe me in a not-too-boring way, hopefully.
+    </p>
+    <ul>
+      <li>
+      My first interest was Biology and I was planning to do some research.
+      </li>
+       <li>
+      I started to work quite early doing websites, as the demand was huge and I was just finishing my studies. I was only 24 years old.
+      </li>
+      <li>
+      My first website was for an Architect in Nice, during an internship.
+      </li>
+      <!--
+      <li>
+      Dreamweaver is the first tool I ever used to build website. (which was pseudo-generating HTML code on your behalf)...
+      </li> 
+      -->
+      <li>
+      I have been working 16 years remotely, seven years in Italy and nine years in UK.
+      </li>
+      <li>
+      I was working on a disease mapping tool to help and alert research on disease outbreaks (in FAO), while you had the Avian flu spreading accross the world.
+      </li>
+    </ul>
+		</div><!-- /.wrapper -->
+	
+		<div class="flex-container">
+		<div class="flex-item">My first interest was Biology and I was planning to do some research.</div>
+		<div class="flex-item">I started to work quite early doing websites, as the demand was huge and I was just finishing my studies. I was only 24 years old.</div>
+		<div class="flex-item ">My first website was for an architect in Nice, during an internship.</div>
+    <div class="flex-item ">Dreamweaver is the first tool I ever used to build website.</div>
+    
+		</div><!-- /.flex-container -->
+			
+		</div><!-- /.container -->
+		<footer>
+    		<ul>
+			<!-- French version https://github.com/sebpca/fr -->
+        		<li><a href="#">French version</a></li>
+			<!-- /.French version -->
+			<li><a href="mailto:sebpca@gmail.com">email</a></li>
+        		<li><a href="https://github.com/sebpca">github.com/sebpca</a></li>
+			</ul>
+		</footer>
+	</body>
+</html>
